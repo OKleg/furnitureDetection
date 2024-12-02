@@ -9,6 +9,6 @@ services:
     volumes:
       - ./training_data:/app/training_data  
       - ./output:/app/output 
-      - C:/Users/Matthew/Desktop/Yolov8_mobile_app-main/train.py:/app/train.py
+      - ./train.py:/app/train.py
     environment:
       - PYTHONUNBUFFERED=1
